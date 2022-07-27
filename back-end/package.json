@@ -5,7 +5,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/server.ts"
+    "dev": "nodemon src/server.ts",
+    "build": "tsc src/server.ts",
+    "start": "node dist/server.js",
+    "dev:test": "dotenv -e .env.test nodemon src/server.ts",
+    "prisma": "prisma migrate dev",
+    "prisma-seed": "prisma db seed",
+    "test": "dotenv -e .env.test npm run prisma && cross-env NODE_OPTIONS=--experimental-vm-modules dotenv -e .env.test jest -i"
   },
   "keywords": [],
   "author": "",
