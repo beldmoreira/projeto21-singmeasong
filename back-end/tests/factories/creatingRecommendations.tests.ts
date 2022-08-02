@@ -23,12 +23,12 @@ export function createManyRecommendations() {
       score: 245,
     },
     {
-      name: "Durand Jones & The Indications - Witchoo (Official Video)",
+      name: "Durand Jones & The Indications - Witchoo",
       youtubeLink: "https://www.youtube.com/watch?v=d7vTtnevlO4",
       score: faker.datatype.number(1000),
     },
     {
-      name: "Jenevieve - Baby Powder (Official Video)",
+      name: "Jenevieve - Baby Powder",
       youtubeLink: "https://www.youtube.com/watch?v=O1Qh7j1yD8Y",
       score: -5,
     },
@@ -45,6 +45,21 @@ export function createManyRecommendations() {
     {
       name: "Paco de Lucia - Entre Dos Aguas ",
       youtubeLink: "https://www.youtube.com/watch?v=0vq3qZwaXrw",
+      score: faker.datatype.number(1000),
+    },
+    {
+      name: "Georgia Anne Muldrow - Break You Down",
+      youtubeLink: "https://www.youtube.com/watch?v=4y0i0oj94h0",
+      score: faker.datatype.number(1000),
+    },
+    {
+      name: "The Roots - What They Do",
+      youtubeLink: "https://www.youtube.com/watch?v=_qzacv8dtb4",
+      score: faker.datatype.number(1000),
+    },
+    {
+      name: "Incubus - Dig ",
+      youtubeLink: "https://www.youtube.com/watch?v=nMsZ6wkZWhA",
       score: faker.datatype.number(1000),
     },
   ];
